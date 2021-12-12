@@ -1,5 +1,5 @@
 # UeModule
-Commandline tool to easily create unreal engien 4 code modules.
+Commandline tool to easily create unreal engine 4 code modules.
 
 Example:
 UeModule.exe MyModule
