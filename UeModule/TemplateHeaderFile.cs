@@ -10,8 +10,7 @@
         public override string GenerateFileContent()
         {
             return 
-@"
-#pragma once
+@"#pragma once
 
 #include ""CoreMinimal.h""
 
@@ -37,7 +36,7 @@ public:
 
         public override string GetRelativePath()
         {
-            return "Header";
+            return "Public";
         }
 
         private readonly string ModuleName;

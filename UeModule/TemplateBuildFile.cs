@@ -10,8 +10,7 @@
         public override string GenerateFileContent()
         {
             return 
-@"
-using System.IO;
+@"using System.IO;
 
 namespace UnrealBuildTool.Rules
 {

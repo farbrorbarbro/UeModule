@@ -10,8 +10,7 @@
         public override string GenerateFileContent()
         {
             return 
-@"
-#include """ + ModuleName + @".h""
+@"#include """ + ModuleName + @".h""
 
 DEFINE_LOG_CATEGORY(Log" + ModuleName + @");
 
@@ -40,7 +39,7 @@ IMPLEMENT_MODULE(F" + ModuleName + @"Module, " + ModuleName + @");
 
         public override string GetRelativePath()
         {
-            return "Source";
+            return "Private";
         }
 
         private readonly string ModuleName;
